@@ -1,3 +1,17 @@
+---
+name: custom-skill
+description: >-
+  Use this skill when the user asks about Git conventions, commit messages, or branch naming.
+  Trigger when the user:
+  - Asks about commit message format, convention, or style (커밋 메시지, 커밋 컨벤션, commit convention)
+  - Wants to commit code and needs guidance on the message (커밋, commit, git commit)
+  - Asks about commit types like feat, fix, refactor, chore, docs, test, style, perf
+  - Asks how to split or separate commits (커밋 분리, atomic commit)
+  - Asks about branch naming or branch strategy (브랜치 전략, 브랜치 이름, branch naming)
+  - Asks about Git workflow rules or best practices (Git 작업 규칙, Git 가이드)
+  Do NOT trigger for general Git usage questions unrelated to conventions (e.g., "how to rebase", "how to resolve merge conflicts").
+---
+
 # 개발 공통 가이드
 
 한국어로 대답
